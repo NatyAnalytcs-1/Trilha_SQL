@@ -6,6 +6,8 @@ SET
 WHERE 
   ID = 2;`
 
-COMMIT TRANSACTION -- confirma a transação
+-- confirma a transação
+COMMIT TRANSACTION 
 
-ROLLBACK TRANSACTION -- desfaz a transação
+-- desfaz a transação
+ROLLBACK TRANSACTION 
