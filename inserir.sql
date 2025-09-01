@@ -1,6 +1,8 @@
 INSERT INTO dbo.TB_EXEMPLO
-(ID,NOME)
+(NOME,EMAIL)
 
 VALUES
-(1, 'natalia')
-(2, 'alex')`
+('natalia','@nnn'),
+('alex','@aaa')
+
+SELECT * FROM TB_EXEMPLO
