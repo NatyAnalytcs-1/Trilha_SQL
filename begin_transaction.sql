@@ -1,0 +1,11 @@
+BEGIN TRANSACTION;
+
+UPDATE dbo.TB_EXEMPLO
+SET 
+  NOME = 'MARIA'
+WHERE 
+  ID = 2;`
+
+COMMIT TRANSACTION confirma a transação
+
+ROLLBACK TRANSACTION desfaz a transação
