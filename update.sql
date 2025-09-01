@@ -1,0 +1,6 @@
+UPDATE dbo.TB_EXEMPLO
+SET
+  NOME = 'MARIA'
+
+WHERE
+  ID = 2
