@@ -12,3 +12,11 @@ UPDATE dbo.TB_EXEMPLO
 SET NOME = RIGHT('Maria Clara', 5)
 WHERE ID = 2;
 -- O valor ficará "Clara" (pegando os 5 últimos caracteres).
+
+
+
+
+-- Buscar quem termina com ".com"
+SELECT *
+FROM dbo.TB_EXEMPLO
+WHERE RIGHT(EMAIL, 4) = '.com';
