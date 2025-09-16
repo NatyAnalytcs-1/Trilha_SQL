@@ -1,0 +1,3 @@
+-- Tirar espaços extras
+SELECT LTRIM(RTRIM(NOME)) AS NOME_TRIM
+FROM dbo.TB_EXEMPLO;
