@@ -1,0 +1,7 @@
+-- USANDO ALIAS (apelidos) PARA NOMEAR COLUNAS E FACILITAR A LEITURA DA TABELA
+SELECT 
+    TB_AD.AddressID AS [ID DO ENDEREÇO],
+    TB_AD.City AS [CIDADE],
+    TB_AD.CountryRegion AS [REGIÃO]
+FROM 
+    SalesLT.Address AS TB_AD;
