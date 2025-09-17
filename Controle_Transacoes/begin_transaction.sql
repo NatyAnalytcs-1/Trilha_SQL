@@ -1,13 +1,15 @@
+-- INICIA UMA TRANSAÇÃO
 BEGIN TRANSACTION;
 
+-- Exemplo de atualização dentro da transação
 UPDATE dbo.TB_EXEMPLO
 SET 
   NOME = 'MARIA'
 WHERE 
-  ID = 2;`
+  ID = 2;
 
--- confirma a transação
-COMMIT TRANSACTION 
+-- CONFIRMA as alterações feitas na transação
+COMMIT TRANSACTION;
 
--- desfaz a transação
-ROLLBACK TRANSACTION 
+-- Caso queira desfazer (antes do COMMIT), use:
+-- ROLLBACK TRANSACTION;
