@@ -1,0 +1,7 @@
+-- UTILIZANDO FUNÇÃO YEAR PARA FILTRAR PELA DATA
+SELECT 
+    TB_AD.*
+FROM 
+    SalesLT.Address AS TB_AD
+WHERE
+    YEAR(TB_AD.ModifiedDate) = 2006;
